@@ -6,7 +6,7 @@
   cursor: pointer;
 }
 
-.btn:hover, .btn--hover {
+.btn:hover, .btn--hover, .btn--hover--rounded {
   -moz-box-shadow: 2px 2px 2px 0px #85F8AF;
   -webkit-box-shadow: 2px 2px 2px 0px #85F8AF;
   box-shadow: 2px 2px 2px 0px #85F8AF;
