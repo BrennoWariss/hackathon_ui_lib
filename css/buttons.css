@@ -23,6 +23,7 @@
 }
 .btn--primary--grouped--one, .btn--primary--grouped--two {
   background-color: green;
+  color: white;
 }
 .btn--hover--grouped--one, .btn--hover--grouped--two {
   background-color: rgb(107, 101, 101);
