@@ -12,7 +12,26 @@
   box-shadow: 2px 2px 2px 0px #85F8AF;
 }
 
-.btn:active, .btn--active {
+.btn:active, .btn--active, .btn--active--rounded {
   color: white;
   background-color: green;
 }
+
+.btn--hover--rounded, .btn--active--rounded, .btn--primary--rounded {
+  border-radius: 20px;
+  padding: 5px 10px;
+}
+.btn--primary--grouped--one, .btn--primary--grouped--two {
+  background-color: green;
+  color: white;
+}
+.btn--hover--grouped--one, .btn--hover--grouped--two {
+  background-color: rgb(107, 101, 101);
+}
+.btn--primary--grouped--two {
+  border-radius: 20px 0 0 20px;
+}
+.btn--active--grouped--two {
+  border-radius: 0 20px 20px 0;
+}
+>>>>>>> 3e23391cfdb0129f7af0ea9be1a265e3d1cbb52b

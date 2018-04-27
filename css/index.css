@@ -37,3 +37,26 @@ section {
   justify-content: center;
   align-items: center;
 }
+<<<<<<< HEAD
+=======
+.groups-wrapper {
+  display: flex;
+  justify-content: space-around;
+}
+.section__wrapper__group__one {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.section__wrapper__group__two {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.section__element__grouped {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+>>>>>>> 3e23391cfdb0129f7af0ea9be1a265e3d1cbb52b
