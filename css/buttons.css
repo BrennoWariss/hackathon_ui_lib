@@ -1,2 +1,18 @@
 .btn {
+  border-width: 1px;
+  border-style: solid;
+  border-color: green;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.btn:hover, .btn--hover {
+  -moz-box-shadow: 2px 2px 2px 0px #85F8AF;
+  -webkit-box-shadow: 2px 2px 2px 0px #85F8AF;
+  box-shadow: 2px 2px 2px 0px #85F8AF;
+}
+
+.btn:active, .btn--active {
+  color: white;
+  background-color: green;
 }
