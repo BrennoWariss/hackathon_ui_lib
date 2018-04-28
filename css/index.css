@@ -4,7 +4,15 @@
 }
 
 body {
-  color: black;
+  color: #2f2f2f;
+  font-family: 'Roboto', sans-serif;
+  background-color: #aab5b0;
+}
+
+header {
+  font-size: 36px;
+  padding: 15px;
+  background-color: #88a8d8;
 }
 
 section {
