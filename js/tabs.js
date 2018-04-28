@@ -1,10 +1,9 @@
 function toggleClass(elementArray, visible) {
-  console.log(elementArray);
-  console.log(visible);
     elementArray.forEach((element) => {
         element.classList.remove('visible');
     });
 
+    var contentElement = document.getElementById('tabContent');
     elementArray[visible].classList.add('visible');
 }
 
@@ -21,7 +20,6 @@ document.addEventListener("DOMContentLoaded", (event) => {
     elArray[0].classList.add('visible');
 
     clickElement.addEventListener('click', (event) => {
-      console.log(event.target.textContent);
         switch(event.target.outerText) {
             case 'tab 1':
                 toggleClass(elArray, 0);
