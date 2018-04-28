@@ -1,4 +1,23 @@
-/* The container */
+input[type="text"] {
+  background-color: rgba(0, 0, 0, 0);
+  border-width: 0 0 1px 0;
+  border-color: gray;
+  border-style: solid;
+  color: #2f2f2f;
+  font-size: 18px;
+}
+
+.error {
+  background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzUE79hkw9pYyZwJevILgkT6eYNYYT3psMjeoOFvBLcoeSBOBtyA') no-repeat;
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-position: right;
+  vertical-align: middle;
+  background-size: 11px;
+  border-color: red !important;
+  color: red !important;
+}
+
 .container {
     display: block;
     position: relative;
