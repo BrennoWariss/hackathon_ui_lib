@@ -79,3 +79,12 @@ section {
   justify-content: center;
   align-items: center;
 }
+.vertical__tabs__wrapper {
+  max-width: 70%;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  clear: both;
+}
+
