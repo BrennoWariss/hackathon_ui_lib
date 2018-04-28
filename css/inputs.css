@@ -1,0 +1,63 @@
+/* The container */
+.container {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    user-select: none;
+}
+
+.container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.checkbox {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+}
+
+.container--hover input ~ .checkbox {
+    background-color: #ccc;
+}
+
+.container:hover input ~ .checkbox {
+    background-color: #ccc;
+}
+
+.checkbox:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+.container--checked input ~ .checkbox:after {
+    display: block;
+}
+
+.container input:checked ~ .checkbox:after {
+    display: block;
+}
+
+.container--checked .checkbox:after{
+  width: 19px;
+  height: 19px;
+  background-color: green;
+  top: 3px;
+  left: 3px;
+}
+
+.container .checkbox:after {
+  width: 19px;
+  height: 19px;
+  background-color: green;
+  top: 3px;
+  left: 3px;
+}
