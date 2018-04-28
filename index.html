@@ -1,41 +1,8 @@
 <!DOCTYPE html>
 
 <html lang="en">
-<head>
-  <meta charset="utf-8">
-
-  <title>UI Lib</title>
-  <meta name="description" content="bovAcadmey first Hackathon">
-
-  <link rel="stylesheet" href="css/index.css">
-  <link rel="stylesheet" href="css/buttons.css">
-  <link rel="stylesheet" href="css/cards.css">
-  <link rel="stylesheet" href="css/vertical-tabs.css">
-  <link rel="stylesheet" href="css/tabs.css">
-</head>
-<body>
-  <section>
-    <div class="section__title">Buttons</div>
-    <div class="section__description">
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam euismod elit sed nunc porttitor, in congue nulla posuere. Suspendisse ac ipsum arcu. Sed id malesuada felis, laoreet hendrerit metus. Ut pharetra elit arcu, non fringilla arcu auctor ac. Cras scelerisque, ligula eget ultrices finibus, lacus mi convallis mi, quis maximus mauris magna id risus. Nulla quis turpis quis velit feugiat interdum scelerisque ut lorem. Donec eu erat ut nibh finibus tristique.
-    </div>
-    <div class="section__subtitle">Basic</div>
-    <div class="section__wrapper">
-      <div class="section__element">
-        <button class="btn btn--primary">Primary</button>
-        Normal
-      </div>
-      <div class="section__element">
-        <button class="btn btn--hover">Primary</button>
-        Hover
-      </div>
-      <div class="section__element">
-        <button class="btn btn--active">Primary</button>
-        Active
-      </div>
-    </div>
-    <div class="section__code">
-    </div>
+  <head>
+    <meta charset="utf-8">
 
     <title>UI Lib</title>
     <meta name="description" content="bovAcadmey first Hackathon">
@@ -43,10 +10,9 @@
     <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/buttons.css">
     <link rel="stylesheet" href="css/cards.css">
+    <link rel="stylesheet" href="css/vertical-tabs.css">
     <link rel="stylesheet" href="css/tabs.css">
     <link rel="stylesheet" href="css/inputs.css">
-
-    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
   </head>
   <body>
     <header>
@@ -208,10 +174,13 @@
           section tabs
         -->
         <section id="tabs">
-          <div class="section__title">Tabs</div> <div class="section__description">
+          <div class="section__title">Tabs</div>
+          <div class="section__description">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam euismod elit sed nunc porttitor, in congue nulla posuere. Suspendisse ac ipsum arcu. Sed id malesuada felis, laoreet hendrerit metus. Ut pharetra elit arcu, non fringilla arcu auctor ac. Cras scelerisque, ligula eget ultrices finibus, lacus mi convallis mi, quis maximus mauris magna id risus. Nulla quis turpis quis velit feugiat interdum scelerisque ut lorem. Donec eu erat ut nibh finibus tristique.
           </div>
-          <div class="section__subtitle">Horizontal</div> <div class="section__wrapper"> <div class="tab__wrapper">
+          <div class="section__subtitle">Horizontal</div>
+          <div class="section__wrapper">
+            <div class="tab__wrapper">
               <div class="tab__headers" id="tabHeaders">
                 <div class="tab__header">
                   tab 1
@@ -244,9 +213,69 @@
               </div>
             </div>
           </div>
+          <div class="section__title">Vertical Tabs</div>
+          <div class="section__description">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          </div>
+          <div class="vertical__tabs__wrapper">
+            <ul class="vertical__tabs" id="vertical__tabs">
+              <li class="first--tab active">Tab Item 1</li>
+              <li class="second--tab">Tab Item 2</li>
+              <li class="third--tab">Tab Item 3</li>
+              <li class="fourth--tab">Tab Item 4</li>
+            </ul><!-- vertical tabs-->
+            <div class="vertical__tab__content" id="vertical__tabb__content">
+              <div class="vertical--tab--content vertical--tab--content--1">
+                <div class="img">
+                  <img src="" alt="">
+                </div>
+                <div class="other--content">
+                  <span class="datum">April 28,2018.</span>
+                  <h3>Header one</h3>
+                  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi eius nam sed magni laborum, autem ea corrupti harum blanditiis suscipit.</p>
+                  <button>Read More...</button>
+                </div>
+
+              </div>
+              <div class="vertical--tab--content vertical--tab--content--2">
+                <div class="img">
+                  <img src="" alt="">
+                </div>
+                <div class="other--content">
+                  <span class="datum">April 28,2018.</span>
+                  <h3>Header two</h3>
+                  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi eius nam sed magni laborum, autem ea corrupti harum blanditiis suscipit.</p>
+                  <button>Read More...</button>
+                </div>
+              </div>
+              <div class="vertical--tab--content vertical--tab--content--3">
+                <div class="img">
+                  <img src="" alt="">
+                </div>
+                <div class="other--content">
+                  <span class="datum">April 28,2018.</span>
+                  <h3>Header three</h3>
+                  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi eius nam sed magni laborum, autem ea corrupti harum blanditiis suscipit.</p>
+                  <button>Read More...</button>
+                </div>
+              </div>
+              <div class="vertical--tab--content vertical--tab--content--4">
+                <div class="img">
+                  <img src="" alt="">
+                </div>
+                <div class="other--content">
+                  <span class="datum">April 28,2018.</span>
+                  <h3>Header four</h3>
+                  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi eius nam sed magni laborum, autem ea corrupti harum blanditiis suscipit.</p>
+                  <button>Read More...</button>
+                </div>
+              </div>
+            </div><!--vertical tab content-->
+          </div><!-- vertical tabs wrapper-->
         </section>
         <section id="inputs">
-          <div class="section__title">Inputs</div> <div class="section__description">
+          <div class="section__title">Inputs</div>
+          <div class="section__description">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam euismod elit sed nunc porttitor, in congue nulla posuere. Suspendisse ac ipsum arcu. Sed id malesuada felis, laoreet hendrerit metus. Ut pharetra elit arcu, non fringilla arcu auctor ac. Cras scelerisque, ligula eget ultrices finibus, lacus mi convallis mi, quis maximus mauris magna id risus. Nulla quis turpis quis velit feugiat interdum scelerisque ut lorem. Donec eu erat ut nibh finibus tristique.
           </div>
           <div class="section__subtitle">Checkboxes</div>
@@ -295,74 +324,16 @@
             </div>
           </div>
         </section>
+        <!--Horizontal-tabs-->
+        <section>
+        </section>
 
       </div>
     </div>
-  </section>
-<!--Horizontal-tabs-->
-  <section>
-    <div class="section__title">Vertical Tabs</div>
-    <div class="section__description">
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    </div>
-    <div class="vertical__tabs__wrapper">
-        <ul class="vertical__tabs" id="vertical__tabs">
-          <li class="first--tab active">Tab Item 1</li>
-          <li class="second--tab">Tab Item 2</li>
-          <li class="third--tab">Tab Item 3</li>
-          <li class="fourth--tab">Tab Item 4</li>
-        </ul><!-- vertical tabs-->
-        <div class="vertical__tab__content" id="vertical__tabb__content">
-          <div class="vertical--tab--content vertical--tab--content--1">
-              <div class="img">
-                  <img src="" alt="">
-              </div>
-              <div class="other--content">
-                  <span class="datum">April 28,2018.</span>
-                  <h3>Header one</h3>
-                  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi eius nam sed magni laborum, autem ea corrupti harum blanditiis suscipit.</p>
-                  <button>Read More...</button>
-              </div>
-            
-          </div>
-          <div class="vertical--tab--content vertical--tab--content--2">
-            <div class="img">
-                <img src="" alt="">
-            </div>
-            <div class="other--content">
-                <span class="datum">April 28,2018.</span>
-                <h3>Header two</h3>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi eius nam sed magni laborum, autem ea corrupti harum blanditiis suscipit.</p>
-                <button>Read More...</button>
-            </div>
-          </div>
-          <div class="vertical--tab--content vertical--tab--content--3">
-              <div class="img">
-                  <img src="" alt="">
-              </div>
-              <div class="other--content">
-                  <span class="datum">April 28,2018.</span>
-                  <h3>Header three</h3>
-                  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi eius nam sed magni laborum, autem ea corrupti harum blanditiis suscipit.</p>
-                  <button>Read More...</button>
-              </div>
-          </div>
-          <div class="vertical--tab--content vertical--tab--content--4">
-              <div class="img">
-                  <img src="" alt="">
-              </div>
-              <div class="other--content">
-                  <span class="datum">April 28,2018.</span>
-                  <h3>Header four</h3>
-                  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi eius nam sed magni laborum, autem ea corrupti harum blanditiis suscipit.</p>
-                  <button>Read More...</button>
-              </div>
-          </div>
-        </div><!--vertical tab content-->
-    </div><!-- vertical tabs wrapper-->
-  </section>
-  <script src="js/vertical-tabs.js"></script>
-  <script src="js/tabs.js"></script>
+    </section>
 
-</body>
+    <script src="js/vertical-tabs.js"></script>
+    <script src="js/tabs.js"></script>
+
+  </body>
 </html>
