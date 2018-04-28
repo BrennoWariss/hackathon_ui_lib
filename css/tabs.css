@@ -1,0 +1,42 @@
+.tab__headers > div {
+  float: left;
+}
+
+.tab__header {
+  cursor: pointer;
+  padding: 15px;
+  border-width: 1px 1px 0 1px;
+  border-style: solid;
+}
+
+.tab__header:nth-child(1){
+  border-color: black;
+}
+
+.tab__header:nth-child(2){
+  border-color: white;
+  border-width: 2px 0 0 0;
+  background-color: green;
+}
+
+.tab__header:nth-child(3){
+  border-color: white;
+  border-width: 4px 0 0 0;
+  background-color: blue;
+}
+
+.tab__header:nth-child(4){
+  border-color: white;
+  border-width: 6px 0 0 0;
+  background-color: purple;
+}
+
+.tab__contents{
+  float: left;
+  cursor: pointer;
+  padding: 15px;
+  border-width: 1px 1px 1px 1px;
+  border-style: solid;
+  margin-top: -6px;
+  background-color: white;
+}
