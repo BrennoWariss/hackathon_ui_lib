@@ -1,3 +1,7 @@
+.visible {
+  display: inline !important;
+}
+
 .tab__headers > div {
   float: left;
 }
@@ -6,11 +10,10 @@
   cursor: pointer;
   padding: 15px;
   border-width: 1px 1px 0 1px;
-  border-style: solid;
-}
+  border-style: solid; }
 
 .tab__header:nth-child(1){
-  border-color: black;
+  border-color: black black white black;
 }
 
 .tab__header:nth-child(2){
@@ -39,4 +42,8 @@
   border-style: solid;
   margin-top: -6px;
   background-color: white;
+}
+
+.tab__content{
+  display: none;
 }
