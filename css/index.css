@@ -62,9 +62,7 @@ section {
   max-width: 70%;
   margin: auto;
   display: flex;
+  position: relative;
+  clear: both;
 }
-.vertical__tab__content {
-  padding: 30px;
-  border: 1px solid black;
-  height: 250px;
-}
+
