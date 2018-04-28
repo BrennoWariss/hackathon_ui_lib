@@ -45,18 +45,25 @@
           <div class="section__wrapper">
             <div class="section__element">
               <button class="btn btn--primary">Primary</button>
-              Normal
             </div>
             <div class="section__element">
-              <button class="btn btn--hover">Primary</button>
-              Hover
+              <button class="btn btn--hover">Hover</button>
             </div>
             <div class="section__element">
-              <button class="btn btn--active">Primary</button>
-              Active
+              <button class="btn btn--active">Active</button>
             </div>
           </div>
-          <div class="section__code">
+          <div class="section__code" id="section__code">
+            <span>hide markup</span>
+            <hr>
+            <div class="code" id="code">
+                <code>
+                    <span class="green">&lt;button </span><span class="light-green">class=</span><span class="red">"btn btn--primary"&gt;</span><br><span>Primary <br></span><span class="green">&lt;/button&gt;</span> <br>
+                      <span class="green">&lt;button </span><span class="light-green">class=</span><span class="red">"btn btn--hover"&gt;</span><br><span>Hover <br></span><span class="green">&lt;/button&gt;</span> <br>
+                      <span class="green">&lt;button </span><span class="light-green">class=</span><span class="red">"btn btn--active"&gt;</span><br><span>Active <br></span><span class="green">&lt;/button&gt;</span>
+                </code> 
+            </div>
+            
           </div>
 
           <!--Button rounded-->
@@ -331,6 +338,7 @@
 
     <script src="js/vertical-tabs.js"></script>
     <script src="js/tabs.js"></script>
+    <script src="js/show-code.js"></script>
 
   </body>
 </html>
