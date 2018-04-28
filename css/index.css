@@ -58,3 +58,13 @@ section {
   justify-content: center;
   align-items: center;
 }
+.vertical__tabs__wrapper {
+  max-width: 70%;
+  margin: auto;
+  display: flex;
+}
+.vertical__tab__content {
+  padding: 30px;
+  border: 1px solid black;
+  height: 250px;
+}
