@@ -33,7 +33,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
                 toggleClass(elArray, 2);
                 break;
             case 'tab 4':
-                toggleClass(elArray, 2);
+                toggleClass(elArray, 3);
                 break;
         };
     });
