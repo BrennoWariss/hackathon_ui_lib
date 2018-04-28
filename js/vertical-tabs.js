@@ -5,7 +5,7 @@ var vertical__tab__content_one = document.getElementsByClassName('vertical--tab-
 var vertical__tab__content_two = document.getElementsByClassName('vertical--tab--content--2');
 var vertical__tab__content_three = document.getElementsByClassName('vertical--tab--content--3');
 var vertical__tab__content_four = document.getElementsByClassName('vertical--tab--content--4');
- console.log(vertical__tab__content_one[0].parentElement)
+ 
 
 function onTabClick(){
     var active = document.getElementsByClassName('active')[0];
