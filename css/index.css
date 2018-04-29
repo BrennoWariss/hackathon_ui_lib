@@ -47,21 +47,10 @@ section {
   cursor: pointer;
 }
 .code {
-  background-color: rgb(137, 141, 77);
   font-weight: 800;
-  padding: 10px;
 }
 
 /*CODE SECTION*/
-.green {
-  color: rgb(16, 71, 16);
-}
-.light-green {
-  color: rgb(54, 107, 138);
-}
-.red {
-  color: rgb(180, 25, 25);
-}
 .content{
   display: flex;
 }
